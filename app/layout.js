@@ -8,7 +8,11 @@ export const metadata = {
   description: 'Comprehensive chillies trading and loan management system',
   keywords: 'chillies, trading, loan management, business, agriculture',
   authors: [{ name: 'SellChillies Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({ children }) {
